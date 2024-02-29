@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+    background-color: rgb(55, 125, 144);
+}
+.App {
+    width: 50%;
+    height: 80%;
+    border: px  solid gray;
+    margin: 100px  30%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background-color:whitesmoke;
+}
+.name{
+    text-align: center;
+    color: #c9c4c4;
+    margin-top: 20px ;
+    font-weight: bolder;
+}
+.App h2 {
+    color: #090909;
+    font-weight: bolder;
+}
+.App ul {
+    list-style: "❤️";
+    cursor: pointer;
+    font-size: 22px ;
+    color: #0d0d0d;
+    margin: 40px;
+    font-weight: bold;
+}
+.App input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.App button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+.App ul li {
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+}
+
+.diffstyle {
+    list-style: "✅";
+    text-decoration: line-through;
+    /* background-color: red;  */
+} 
+.div10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    border-radius: 20px;
+    border: 1px  solid #fff;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
